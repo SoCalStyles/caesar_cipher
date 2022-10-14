@@ -13,5 +13,5 @@ def caesar_cipher(string, number)
     end
     (letter == letter.upcase) ? new_letter = new_letter.chr.upcase : new_letter = new_letter.chr
   end
-  return letter_codes.join("")
+  letter_codes.join("")
 end
