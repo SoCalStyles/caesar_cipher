@@ -11,7 +11,6 @@ def caesar_cipher(string, number)
         new_letter -= 1 
       end
       x += 1
-      new_letter
     end
     if (letter == letter.upcase)
       new_letter = new_letter.chr.upcase
